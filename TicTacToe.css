@@ -1,0 +1,78 @@
+
+
+.container {
+
+    text-align:center;
+    
+    
+
+}
+
+.title {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title span {
+    color: rgb(72, 228, 228);
+    padding-left: 15px;
+}
+
+.reset {
+    width: 160px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: rgb(90, 175, 245);
+    font-size: 26px;
+    color: rgb(19, 19, 160);
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.board {
+    height: 560px;
+    width: 500px;
+    display: inline;
+    flex-wrap: wrap; /* Allows wrapping of boxes into rows */
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds space between boxes */
+    margin: 20px auto ;
+    padding: 10px;
+}
+
+.boxes {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 150px;
+    background: rgb(89, 88, 88);
+    border: 4px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    float: left;
+    justify-content: space-between;
+    margin: 20px auto ;
+    padding: 50px;
+    
+    
+    
+}
+
+.boxes img {
+    height: 80px; /* Controls icon size */
+    width: 80px;
+}
+
+.title img {
+    padding: 20px;
+    height: 50px;
+}
